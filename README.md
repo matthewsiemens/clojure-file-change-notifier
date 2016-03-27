@@ -1,6 +1,7 @@
 # file-system-watcher
 
-First commit, better documentation is coming shortly
+First commit, better documentation is coming shortly.
+Maybe don't try to use this just yet ;)
 
 
 [![Build Status](https://travis-ci.org/matthewsiemens/clojure-yahoo-finance.svg?branch=master)](https://travis-ci.org/matthewsiemens/clojure-file-change-notifier)
