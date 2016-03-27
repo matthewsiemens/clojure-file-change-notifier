@@ -6,5 +6,5 @@
   "Send email with list of all modified files in directory"
   [& args]
   (let [config-filename (first args)]
-    (check-for-modified-files(config-filename))
+    (check-for-modified-files config-filename)
     ))
