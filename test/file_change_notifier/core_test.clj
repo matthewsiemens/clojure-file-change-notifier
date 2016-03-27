@@ -1,6 +1,6 @@
-(ns file-system-watcher.core-test
+(ns file-change-notifier.core-test
   (:require [clojure.test :refer :all]
-            [file-system-watcher.core :refer :all]))
+            [file-change-notifier.core :refer :all]))
 
 (deftest a-test
   (testing "FIXME, I fail."
