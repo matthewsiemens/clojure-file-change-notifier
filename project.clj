@@ -6,7 +6,7 @@
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clj-time "0.11.0"]
                  [com.draines/postal "1.11.3"]]
-  :main ^:skip-aot file-system-watcher.core
+  :main ^:skip-aot file-change-notifier.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
   )

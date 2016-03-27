@@ -1,4 +1,4 @@
-(ns file-system-watcher.emailer
+(ns file-change-notifier.emailer
   (:require [postal.core :refer [send-message]]))
 
 (defn send-email

@@ -1,4 +1,4 @@
-(ns file-system-watcher.formatter
+(ns file-change-notifier.formatter
   (:require [clj-time.format :as f]
             [clj-time.coerce :as c]))
 

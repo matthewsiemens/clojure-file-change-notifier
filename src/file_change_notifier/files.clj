@@ -1,4 +1,4 @@
-(ns file-system-watcher.files
+(ns file-change-notifier.files
   (:require [clojure.java.io :as io]
             [clj-time.core :as t]
             [clj-time.coerce :as c]

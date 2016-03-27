@@ -1,8 +1,8 @@
-(ns file-system-watcher.directory-watcher
-  (:require [file-system-watcher.files :refer :all]
-            [file-system-watcher.config :refer [load-config]]
-            [file-system-watcher.emailer :refer [send-email]]
-            [file-system-watcher.formatter :refer [format-content]]
+(ns file-change-notifier.directory-watcher
+  (:require [file-change-notifier.files :refer :all]
+            [file-change-notifier.config :refer [load-config]]
+            [file-change-notifier.emailer :refer [send-email]]
+            [file-change-notifier.formatter :refer [format-content]]
             [clj-time.core :as t]))
 
 (defn check-for-modified-files

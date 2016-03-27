@@ -1,4 +1,4 @@
-(ns file-system-watcher.config
+(ns file-change-notifier.config
   (:require [clojure.edn :as edn]))
 
 (defn load-config
