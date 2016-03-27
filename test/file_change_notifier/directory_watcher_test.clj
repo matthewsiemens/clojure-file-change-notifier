@@ -4,6 +4,6 @@
             [clj-time.core :as t]))
 
 (deftest test-load-config
-  (testing "Test that we are able to read in the example config file"
+  (testing "Test that we get the correct start interval"
   (is (= (t/minus (t/now) (t/minutes 60))) (get-interval-start 60))
   ))
