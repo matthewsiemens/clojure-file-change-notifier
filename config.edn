@@ -1,0 +1,11 @@
+{
+ :host "smtp.gmail.com"
+ :user ""
+ :pass ""
+ :ssl true
+ :from ""
+ :to ""
+ :subject "Files Changed"
+ :watch-directory "/backups"
+ :interval-in-minutes 1440
+ }
