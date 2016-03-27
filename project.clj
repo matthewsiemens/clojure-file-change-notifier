@@ -5,7 +5,7 @@
             :url "http://www.eclipse.org/legal/epl-v10.html"}
   :dependencies [[org.clojure/clojure "1.8.0"]
                  [clj-time "0.11.0"]
-                 [com.draines/postal "1.11.3"]]
+                 [com.draines/postal "1.11.4"]]
   :main ^:skip-aot file-change-notifier.core
   :target-path "target/%s"
   :profiles {:uberjar {:aot :all}}
