@@ -1,4 +1,4 @@
-(defproject file-change-notifier "0.1.0"
+(defproject file-change-notifier "0.1.1-SNAPSHOT"
   :description "Send email with list of modified files in directory"
   :url "https://github.com/matthewsiemens/clojure-file-change-notifier"
   :license {:name "Eclipse Public License"
