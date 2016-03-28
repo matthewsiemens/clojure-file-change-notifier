@@ -2,6 +2,7 @@
   (:require [postal.core :refer [send-message]]))
 
 (defn send-email
+  "Send email with Postal"
   [config content]
   (send-message {:host (:host config)
                  :user (:user config)

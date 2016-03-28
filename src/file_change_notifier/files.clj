@@ -16,6 +16,7 @@
   )
 
 (defn get-last-modified-from-file
+  "Get the last modified date from passed in file"
   [file]
   (c/from-long (.lastModified file)))
 
