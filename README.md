@@ -1,7 +1,7 @@
 # file-system-watcher
 
 Send email with list of modified files in directory
-**Maybe don't try to use this just yet ;) **
+** Maybe don't try to use this just yet ;) **
 
 
 [![Build Status](https://travis-ci.org/matthewsiemens/clojure-yahoo-finance.svg?branch=master)](https://travis-ci.org/matthewsiemens/clojure-file-change-notifier)
@@ -16,11 +16,25 @@ Create jar with Leiningen
 lein uberjar
 ```
 
-Update config file
+** Update config file **
 
-**ToDo**
+You can either update the existing config file or create a new one
 
-Run jar and pass in config filename
+```
+{
+ :host "smtp.gmail.com"
+ :user "" <- Add gmail username
+ :pass "" <- Add password
+ :ssl true
+ :from "" <- Add address email will come from
+ :to "" <- Add email address email should be sent too
+ :subject "Files Changed" <- Set email subject to something informative
+ :watch-directory "/backups" <- Set which directory to check for changed files
+ :interval-in-minutes 1440 <- Set how many minutes in the past we should be checking for changes in
+ }
+```
+
+** Run jar and pass in config filename **
 
 ```
 java -jar clojure-file-change-notifier-VERSION-standalone.jar "config.edn"
