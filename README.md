@@ -23,7 +23,7 @@ You can either update the existing config file or create a new one
 ```
 {
  :host "smtp.gmail.com"
- :user "" ;; Add gmail username
+ :user "" <- Add gmail username
  :pass "" <- Add password
  :ssl true
  :from "" <- Add address email will come from
