@@ -12,9 +12,9 @@ Send email with list of modified files in directory
 
 Create jar with Leiningen
 
-'''
+```
 lein uberjar
-'''
+```
 
 Update config file
 
@@ -22,9 +22,9 @@ Update config file
 
 Run jar and pass in config filename
 
-'''
+```
 java -jar clojure-file-change-notifier-VERSION-standalone.jar "config.edn"
-'''
+```
 
 ## License
 
