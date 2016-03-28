@@ -1,7 +1,6 @@
 # file-system-watcher
 
 Send email with list of modified files in directory
-** Maybe don't try to use this just yet ;) **
 
 
 [![Build Status](https://travis-ci.org/matthewsiemens/clojure-yahoo-finance.svg?branch=master)](https://travis-ci.org/matthewsiemens/clojure-file-change-notifier)
