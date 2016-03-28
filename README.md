@@ -1,4 +1,4 @@
-# file-system-watcher
+# file-system-notifier
 
 Send email with list of modified files in directory
 
