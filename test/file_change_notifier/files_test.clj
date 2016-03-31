@@ -1,6 +1,6 @@
-(ns file-change-notifier.core-test
+(ns file-change-notifier.files-test
   (:require [clojure.test :refer :all]
-            [file-change-notifier.core :refer :all]
+            [file-change-notifier.files :refer :all]
             [clj-time.core :as t]))
 
 (deftest test-load-config
