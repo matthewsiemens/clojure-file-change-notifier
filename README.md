@@ -2,17 +2,10 @@
 
 Send email with list of modified files in directory
 
-
 [![Build Status](https://travis-ci.org/matthewsiemens/clojure-yahoo-finance.svg?branch=master)](https://travis-ci.org/matthewsiemens/clojure-file-change-notifier)
 [![Dependency Status](https://www.versioneye.com/user/projects/56f8387635630e0034fda557/badge.svg)](https://www.versioneye.com/clojure/file-change-notifier:file-change-notifier/)
 
 ## Usage
-
-Create jar with Leiningen
-
-```
-lein uberjar
-```
 
 ** Update config file **
 
@@ -30,12 +23,6 @@ You can either update the existing config file or create a new one
  :watch-directory "/backups" <- Set which directory to check for changed files
  :interval-in-minutes 1440 <- Set how many minutes in the past we should be checking for changes in
  }
-```
-
-** Run jar and pass in config filename **
-
-```
-java -jar clojure-file-change-notifier-VERSION-standalone.jar "config.edn"
 ```
 
 ## License

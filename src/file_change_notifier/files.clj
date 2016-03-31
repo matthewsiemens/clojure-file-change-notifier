@@ -4,6 +4,12 @@
             [clj-time.coerce :as c]
             ))
 
+(defn get-interval-start
+  "Get interval start, we will check for any files modified after this time"
+  [interval-in-minutes]
+  (t/minus (t/now) (t/minutes interval-in-minutes))
+  )
+
 (defn only-files
   "Filter out anything that isn't a file"
   [file-list]
